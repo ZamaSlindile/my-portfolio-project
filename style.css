@@ -70,27 +70,37 @@ p {
     padding: 120px 60px;
 }
 
-.about-container h1 {
+.content  h1 {
     font-size:60px;
     line-height: 70px;
 }
 
-.about-container img {
+.content h2 {
+    font-size: 20px;
+    font-family: var(--default-font-family);
+}
+
+.content h3 {
+     font-size: 24px;
+     font-family: var(--default-font-family);
+     line-height: 1.5;
+}
+
+.content p {
+    font-size: 14px;
+}
+.content-container img {
     width: 70%;
     height: 70%;
     border-radius: 4px;
 }
 
-.about-container h2 {
-    font-size: 20px;
-    font-family: var(--default-font-family);
-}
 
-.about-container {
+.content-container {
     padding:120px 60px;
  }
 
-.about-information {
+.content {
         margin: 30px;
  }
 
@@ -127,7 +137,7 @@ p {
     text-align: center;
     padding: 0;
    }
-   .about-container {
+   .content {
     text-align: center;
     padding:0;
    }
